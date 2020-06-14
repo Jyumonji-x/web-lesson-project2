@@ -1,5 +1,6 @@
-<!--显示我的照片-->
+
 <?php
+//显示我的照片
 session_start();
 if (isset($_SESSION["sessionUid"])) {
     $userUid = $_SESSION["sessionUid"];

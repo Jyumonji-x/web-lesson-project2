@@ -1,5 +1,6 @@
-<!--详情页面 收藏按钮-->
+
 <?php
+//详情页面 收藏按钮
 session_start();
 if (isset($_SESSION["sessionUid"])) {
     $userUid = $_SESSION["sessionUid"];

@@ -1,8 +1,8 @@
 // 主页图片初始化显示
 $(document).ready(function(){
         $.get("./src/php/indexFindFavorPhotos.php",function(data) {
-            data = JSON.parse(data);
             console.log(data);
+            data = JSON.parse(data);
             let mainBox = document.getElementById("pictureShowing");
             mainBox.innerHTML="";
             let row =document.createElement("div");

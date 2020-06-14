@@ -1,5 +1,6 @@
-<!--登录逻辑-->
+
 <?php
+//登录逻辑
 include 'sqlConnect.php';
 //创建连接
 $conn=mysqli_connect(HOST,USERNAME,PASSWORD,DATABASE);

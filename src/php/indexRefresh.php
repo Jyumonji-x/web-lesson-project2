@@ -1,5 +1,6 @@
-<!--主页刷新-->
+
 <?php
+//主页刷新
 function getRefresh()
 {
     include 'sqlConnect.php';

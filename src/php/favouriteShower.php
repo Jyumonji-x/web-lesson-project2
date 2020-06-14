@@ -1,5 +1,6 @@
-<!--收藏页面的显示-->
+
 <?php
+//收藏页面的显示
 session_start();
 if (isset($_SESSION["sessionUid"])) {
     $userUid = $_SESSION["sessionUid"];

@@ -1,5 +1,6 @@
-<!--修改页面的显示-->
+
 <?php
+//修改页面的显示
 $imageID = $_POST["imageID"];
 session_start();
 if (isset($_SESSION["sessionUid"])) {

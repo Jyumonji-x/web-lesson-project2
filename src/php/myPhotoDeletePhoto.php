@@ -1,5 +1,6 @@
-<!--删除自己的照片-->
 <?php
+//删除自己的照片
+
 $imageID = $_POST["imageID"];
 session_start();
 if (isset($_SESSION["sessionUid"])) {

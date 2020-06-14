@@ -1,6 +1,6 @@
-<!--搜索页面的搜索逻辑-->
-<?php
 
+<?php
+//搜索页面的搜索逻辑
 $isTitle=$_POST["byTitle"];
 $isDescription=$_POST["byDescription"];
 $title = $_POST["title"];

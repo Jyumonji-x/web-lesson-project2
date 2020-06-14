@@ -1,5 +1,6 @@
-<!--上传页面的提交-->
+
 <?php
+//上传页面的提交
 $title = addslashes($_POST["title"]);
 $description = addslashes($_POST["description"]);
 $content = $_POST["content"];

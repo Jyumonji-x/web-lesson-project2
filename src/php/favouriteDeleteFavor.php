@@ -1,5 +1,6 @@
-<!--收藏页面删除收藏的实现-->
+
 <?php
+//收藏页面删除收藏的实现
 $imageID = $_POST["imageID"];
 session_start();
 if (isset($_SESSION["sessionUid"])) {

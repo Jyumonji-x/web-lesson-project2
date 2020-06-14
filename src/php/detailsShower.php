@@ -1,5 +1,6 @@
-<!--详情页面 显示详情的实现-->
+
 <?php
+//详情页面 显示详情的实现
 session_start();
 if (isset($_SESSION["sessionUid"])) {
     $userUid = $_SESSION["sessionUid"];

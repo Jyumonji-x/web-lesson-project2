@@ -1,5 +1,6 @@
-<!--搜索页面二级联动显示国家的实现-->
+
 <?php
+//搜索页面二级联动显示国家的实现
 include 'sqlConnect.php';
 //创建连接
 $conn=mysqli_connect(HOST,USERNAME,PASSWORD,DATABASE);

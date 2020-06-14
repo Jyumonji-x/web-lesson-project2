@@ -1,6 +1,6 @@
-<!--修改页面的修改实现-->
-<?php
 
+<?php
+//修改页面的修改实现
 $imageID = $_POST["imageID"];
 $title = addslashes($_POST["title"]);
 $description = addslashes($_POST["description"]);

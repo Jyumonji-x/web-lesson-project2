@@ -1,6 +1,8 @@
-<!--主页查找热门图片-->
+
 <?php
 include 'sqlConnect.php';
+//主页查找热门图片
+
 //创建连接
 $conn=mysqli_connect(HOST,USERNAME,PASSWORD,DATABASE);
 
@@ -39,4 +41,5 @@ array_push($result,$title);
 array_push($result,$imageName);
 array_push($result,$description);
 array_push($result,$imageID);
+
 echo json_encode($result);

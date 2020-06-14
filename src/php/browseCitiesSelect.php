@@ -1,5 +1,6 @@
-<!--搜索页面的二级联动显示城市条目的实现-->
+
 <?php
+//搜索页面的二级联动显示城市条目的实现
 include 'sqlConnect.php';
 //创建连接
 $conn=mysqli_connect(HOST,USERNAME,PASSWORD,DATABASE);

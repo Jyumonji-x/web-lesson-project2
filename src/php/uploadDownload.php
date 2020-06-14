@@ -1,5 +1,6 @@
-<!--将上传的图片获取到服务器上-->
+
 <?php
+//将上传的图片获取到服务器上
 $imgFile = $_FILES["file"];
 $title = $_POST["title"];
 $description = $_POST["description"];
@@ -7,6 +8,8 @@ $content = $_POST["content"];
 $country = $_POST["country"];
 $city = $_POST["city"];
 
+$title = addslashes($title);
+$description = addslashes($description);
 
 session_start();
 if (isset($_SESSION["sessionUid"])) {

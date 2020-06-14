@@ -1,6 +1,5 @@
-<!--搜索页面获取热门标签-->
-
 <?php
+//搜索页面获取热门标签
 include 'sqlConnect.php';
 //创建连接
 $conn=mysqli_connect(HOST,USERNAME,PASSWORD,DATABASE);
