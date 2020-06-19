@@ -83,24 +83,7 @@
         </div>
     </nav>
     <main class="m-5" id="mainBox">
-            <h1>Title</h1>
-            <div class="row align-items-center bg-light">
-                <div class="col-8">
-                    <img src="../../img/images/5855213165.jpg" class="img-fluid m-4">
-                </div>
-                <div class="col-3 p-4">
-                    <h2>like number <b class="number">100</b></h2>
-                    <button class="btn btn-danger" onclick="alert('like!')">like</button>
-                    <h2>details</h2>
-                    <p>Content:Scenery</p>
-                    <p>Country:China</p>
-                    <p>City:Shanghai</p>
-                    <p>Photographer:abcde</p>
-                </div>
-            </div>
-        <div class="m-5">
-            <p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
-        </div>
+
     </main>
     <footer>
         <div>

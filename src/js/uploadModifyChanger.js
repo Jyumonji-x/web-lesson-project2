@@ -21,7 +21,7 @@ function change() {
     else if(content==='null'){
         alert("Please choose the Content!");
     }
-    else if(country==="null"){
+    else if(country==="0"){
         alert("Please choose the Country!");
     }
     else{
